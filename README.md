@@ -98,3 +98,9 @@ node cli ko
 
 // 를 greeting[process.argv[2]] 로 받는다면 '안녕' 을 반환한다는 것을 알 수 있다.
 ```
+
+---
+
+<img src="./gitImages/package_json_bin.PNG">
+
+package.json 에 해당 형식처럼 bin 을 정의하면 npm install 을 하는 사용자에게 해당 명령사용이 가능하게 한다.
