@@ -104,3 +104,13 @@ node cli ko
 <img src="./gitImages/package_json_bin.PNG">
 
 package.json 에 해당 형식처럼 bin 을 정의하면 npm install 을 하는 사용자에게 해당 명령사용이 가능하게 한다.
+
+즉 사용자가
+
+```javascript
+say-hi ko
+// return '안녕'
+sayhi-kr
+// return '안녕'
+// 이 된다.
+```
