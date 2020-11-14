@@ -1,10 +1,14 @@
 {
 	"name": "@chobby/hi",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "<a href=\"www.npmjs.com\">NPM</a>",
 	"main": "main.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"say-hi": "./cli.js",
+		"say-hi-kr": "./cli-kr.js"
 	},
 	"author": "",
 	"license": "ISC"

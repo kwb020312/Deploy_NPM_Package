@@ -64,3 +64,37 @@ npm i @chobby/hi
 npm outdated
 // 새 버전이 나왔다면 업데이트
 ```
+
+# Process.Argv
+
+```javascript
+node cli hi
+```
+
+라고 입력한 경우이다.
+
+<img src="./gitImages/process_argv.PNG">
+
+1. node 의 위치
+2. cli.js 파일의 위치
+3. 선언 문자열
+
+즉 process.argv[Number] 로 접근이 가능하다
+
+---
+
+<img src="./gitImages/Language.PNG">
+
+해당 모듈에서
+
+```javascript
+const greeting  = require('해당 모듈주소')
+// 로 선언한 경우
+greeting.ko === greeting['ko']
+// 둘은 같은 '안녕' 을 반환하며 이를 통해
+------
+
+node cli ko
+
+// 를 greeting[process.argv[2]] 로 받는다면 '안녕' 을 반환한다는 것을 알 수 있다.
+```
